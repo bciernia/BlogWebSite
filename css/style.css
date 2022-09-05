@@ -85,6 +85,10 @@ ul {
   margin: 10px 10px;
 }
 
+.hide-menu-row a {
+  padding: 10px;
+}
+
 .hide-menu-row a:hover {
   color: #fefaec;
   background-color: darkred;
