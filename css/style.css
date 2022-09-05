@@ -14,6 +14,7 @@ header {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 1.25em;
+  min-height: 8vh;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
 footer {
   background-color: #d6d5a8;
   margin-top: auto;
+  min-height: 8vh;
 }
 
 a {
@@ -37,6 +39,86 @@ a {
   cursor: pointer;
   font-size: 0.8em;
 }
+
+ul {
+  list-style-type: none;
+}
+
+/*#region Index */
+
+.body-container {
+  height: 100%;
+  display: flex;
+  min-height: 83.6vh;
+}
+
+.hide-button {
+  flex-direction: column;
+}
+
+.side-nav-bar {
+  background-color: #1b2430;
+  color: #cca003;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side-bar-nav a {
+  margin: 5px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #1b2430;
+  display: block;
+  transition: 0.8s;
+  border: 2px;
+  border-radius: 24px;
+}
+
+.left-side-bar-nav a:hover {
+  color: #fefaec;
+  background-color: darkred;
+}
+
+.hide-menu-row {
+  text-align: right;
+  margin: 10px 10px;
+}
+
+.hide-menu-row a:hover {
+  color: #fefaec;
+  background-color: darkred;
+}
+
+.right-side-bar-nav a {
+  font-size: 16px;
+  padding: 15px;
+}
+
+.right-side-bar-nav a:hover {
+  background-color: #fefaec;
+}
+
+.body-content-post {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.middle-container-img-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.middle-container-img-right {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+/*#endregion */
 
 .contact-button {
   padding-top: 5px;
