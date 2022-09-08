@@ -1,3 +1,8 @@
+:root {
+  --firstColor: #1b40f3;
+  --secondColor: #00e4ff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +21,11 @@ header {
 
 body {
   background-color: #51557e;
+  background: radial-gradient(
+    circle,
+    var(--firstColor) 20%,
+    var(--secondColor) 100%
+  );
   margin: 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -47,6 +57,27 @@ ul {
   height: 100%;
   display: flex;
   min-height: 83.6vh;
+}
+
+.login-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input-container {
+  height: 100px;
+  width: 300px;
+  text-align: left;
+}
+
+.form-input-container label {
+  padding-right: 30px;
+}
+
+.form-input-container input {
+  float: right;
 }
 
 .hide-button {
