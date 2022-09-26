@@ -65,6 +65,13 @@ ul {
   align-content: stretch;
 }
 
+.body-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 83.6vh;
+}
+
 .login-container {
   background-color: #014d70;
   height: 20%;
