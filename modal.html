@@ -1,13 +1,51 @@
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Modal</title>
-    <link rel="stylesheet" href="css/stylse.css" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <p>
-        <i class="modal-icon"></i>
-        <p>Test</p>
-    </p>
+    <div class="modal-container">
+      <div class="modal">
+        <div modal-title>
+          <span
+            ><img
+              class="modal-title-icon"
+              src="images/success-icon.png"
+              alt="Success icon in modal"
+          /></span>
+          <span class="modal-title-text">Modal title</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam iure
+          minima eveniet? Aliquam aliquid illum temporibus accusamus eum ea
+          dicta veritatis quos quis, quasi maiores veniam, delectus facilis? Sit
+          corporis maxime aliquam nulla distinctio cum ut, sed dicta,
+          perferendis voluptatibus ducimus debitis.
+        </p>
+        <div class="modal-buttons-section">
+          <button class="modal-button accept-button">Accept</button>
+          <button
+            class="modal-button cancel-button"
+            onclick="location.href='index.html'"
+          >
+            Decline
+          </button>
+        </div>
+        <button
+          class="close-button"
+          onclick="javascript:alert('modal has been closed')"
+        >
+          x
+        </button>
+      </div>
+    </div>
   </body>
 </html>
