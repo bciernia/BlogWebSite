@@ -620,7 +620,7 @@ ul {
 .another-bar-placeholder {
   position: absolute;
   transition: all 0.3s ease;
-  left: 1.2rem;
   color: rgba(255, 255, 255, 0.753);
   cursor: text;
+  left: 1.2rem;
 }
