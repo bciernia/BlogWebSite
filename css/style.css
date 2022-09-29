@@ -579,3 +579,7 @@ ul {
 .search-bar-input:focus {
   outline: none;
 }
+
+.search-bar-input::placeholder{
+  color: rgba(255, 255, 255, 0.753);
+}
