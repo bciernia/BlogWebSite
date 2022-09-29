@@ -583,3 +583,35 @@ ul {
 .search-bar-input::placeholder{
   color: rgba(255, 255, 255, 0.753);
 }
+
+.another-bar-input {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 26rem;
+  font-size: 1em;
+  color: white;
+}
+
+.another-bar {
+  background-color: var(--backgroundColorModals);
+  width: 31rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.another-bar-input:focus{
+  outline: none;
+}
+
+.search-bar-input::placeholder{
+  background: transparent;
+}
+
+.another-bar-placeholder{
+  position: absolute;
+}
