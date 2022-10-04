@@ -606,6 +606,10 @@ ul {
   padding: 0 1.25rem;
 }
 
+.another-bar-input::placeholder {
+  opacity: 0;
+}
+
 .another-bar-input:focus {
   outline: none;
 }
