@@ -610,17 +610,16 @@ ul {
   outline: none;
 }
 
-.another-bar-input:not(:placeholder-shown) + .another-bar-placeholder,
-.another-bar-input:focus + .another-bar-placeholder {
-  outline: none;
-  background-color: black;
-  transform: translateY(-1.5rem);
-}
-
 .another-bar-placeholder {
   position: absolute;
   transition: all 0.3s ease;
   color: rgba(255, 255, 255, 0.753);
   cursor: text;
   left: 1.2rem;
+}
+
+.another-bar-input:not(:placeholder-shown) + .another-bar-placeholder,
+.another-bar-input:focus + .another-bar-placeholder {
+  background-color: black;
+  transform: translateY(-1.5rem);
 }
